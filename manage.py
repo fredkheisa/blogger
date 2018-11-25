@@ -1,6 +1,6 @@
 from app import create_app,db
 from flask_script import Manager,Server
-from app.models import User,Role, Joke, Commentjoke, Pickup, Commentlines, Debate, Commentdebate 
+from app.models import User, Blog, Comments, Subscription
 from  flask_migrate import Migrate, MigrateCommand
 
 
