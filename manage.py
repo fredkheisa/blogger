@@ -17,7 +17,7 @@ manager.add_command('db',MigrateCommand)
 
 @manager.shell
 def make_shell_context():
-    return dict(app = app,db = db,User = User,Role = Role ,Joke = Joke, Commentjoke = Commentjoke,Pickup=Pickup,Commentlines=Commentlines,Debate=Debate,Commentdebate = Commentdebate )
+    return dict(app = app,db = db,User = User,Blog = Blog, Comments = Comments,Subscription = Subscription)
 
 manager.add_command('server',Server)
 @manager.command
